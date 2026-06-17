@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.portfolio {
+  background: bisque;
+  min-height: 100vh;
+}
+
+/* Hero */
+.hero {
+  background:burlywood;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  color: cadetblue;
+  font-size: 60px;
+  text-shadow: 3px 3px 10px black;
+}
+
+.hero h3 {
+  margin-top: 10px;
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+/* Cards */
+.card {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 100, 0, 0.2);
+}
+
+.card h2 {
+  color: #2e8b57;
+  margin-bottom: 15px;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background: #2e8b57;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+/* Project */
+.project ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.project li {
+  margin-bottom: 8px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+table th {
+  background: #2e8b57;
+  color: white;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: rgba(34, 139, 34, 0.9);
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .skills {
+    justify-content: center;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+}
